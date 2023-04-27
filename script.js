@@ -79,7 +79,7 @@ function calcstrength(){
     }    
     else if( (hasLower || hasUpper) && (hasNum || hasSym) && passwordLength >= 6){
         setIndicator("#ff0");
-        strength.innerHTML ="Modrate";
+        strength.innerHTML ="Moderate";
         strength.style.color = "yellow";
     }else{
         setIndicator("#f00");
